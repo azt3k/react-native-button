@@ -32,6 +32,7 @@ export default class Button extends Component {
 
     return (
       <TouchableOpacity
+        {...this.props}
         {...touchableProps}
         testID={this.props.testID}
         style={this.props.containerStyle}
